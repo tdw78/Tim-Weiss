@@ -1,6 +1,12 @@
 .App {
   text-align: center;
   background-color: #C1C7D7;
+  background-image: url("https://image.freepik.com/free-vector/abstract-futuristic-background_23-2148399335.jpg");
+  background-size: cover;
+  position: fixed;
+  min-width: 100%;
+  min-height: 50%;
+  background-position: center;
 }
 
 .main {
@@ -8,7 +14,29 @@
 }
 
 h1 {
-  color: #040014;
+  color: #FCFC62;
   font-family: "Georgia";
 }
 
+.list-group {
+  color: #101935;
+  font-family: "Georgia";
+  font-size: 28px;
+}
+
+.link-item {
+  color: #F0F005;
+  font-size: 19px;
+}
+
+#about-me {
+  color: #322F5B;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+img {
+  height: 400px;
+  width: 300px;
+}

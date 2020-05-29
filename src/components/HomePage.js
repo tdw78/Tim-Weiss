@@ -7,8 +7,9 @@ class HomePage extends Component {
     return (
       <div>
         <div className="main">
-          <h1>Timothy Weiss</h1>  
-        </div>
+          <h1>Timothy Weiss</h1>
+          <img src="../../images/family2.jpeg" />
+        </div>    
       </div>
   );
  }

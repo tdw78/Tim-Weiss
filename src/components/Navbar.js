@@ -7,10 +7,10 @@ class NavBar extends Component {
     return (
       <div>
         <div class="d-flex justify-content-around">
-          <Link to="/contact">Contact</Link> 
-          <Link to="/projects">Projects</Link> 
-          <Link to="/about">About</Link>
-          <Link to="/">Home</Link>
+          <Link class="link-item" to="/contact">Contact</Link> 
+          <Link class="link-item"  to="/projects">Projects</Link> 
+          <Link class="link-item" to="/about">About</Link>
+          <Link class="link-item" to="/">Home</Link>
         </div>
       </div>
     )

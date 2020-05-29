@@ -7,8 +7,14 @@ class Contact extends Component {
     return (
       <div>
         <div className="main">
-          <h1>Timothy Weiss</h1>
-          <h2>Contact Me</h2>  
+          <h2>Contact Me</h2> 
+          
+          <div class="list-group">
+            <a href="https://www.linkedin.com/in/-timothyweiss/" target="_blank" >LinkedIn</a>
+            <a href="https://github.com/tdw78" target="_blank">GitHub</a>
+            <p>(415) 250-0122</p>
+            <p>tdweiss1978@gmail.com</p>
+          </div>
         </div>
       </div>
   );
