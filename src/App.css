@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  background-color: #C1C7D7;
-  background-image: url("https://image.freepik.com/free-vector/abstract-futuristic-background_23-2148399335.jpg");
+  background-color: #03045E;
   background-size: cover;
   position: fixed;
   min-width: 100%;
@@ -13,9 +12,12 @@
   min-height: 100vh;
 }
 
-h1 {
-  color: #FCFC62;
-  font-family: "Georgia";
+#title {
+  color: #F5F5F5;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: .5rem;
+  padding-top: 111px;
+  font-size: 111px;
 }
 
 .list-group {
@@ -24,10 +26,17 @@ h1 {
   font-size: 28px;
 }
 
-.link-item {
-  color: #F0F005;
-  font-size: 19px;
+.nav-link {
+  color: #C9B1BD;
+  background: #03045E;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 22px;
 }
+
+/* .link-item {
+  color: #F5F5F5;
+  font-size: 19px;
+} */
 
 #about-me {
   color: #322F5B;
@@ -37,6 +46,6 @@ h1 {
 }
 
 img {
-  height: 400px;
-  width: 300px;
+  height: 275px;
+  width: 225px;
 }

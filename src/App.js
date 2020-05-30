@@ -11,7 +11,7 @@ import HomePage from "./components/HomePage";
 function App() {
   return (
     <div className="App">
-      <NavBar />
+         <NavBar />
      
       <main>
         <Switch>
@@ -21,7 +21,6 @@ function App() {
           <Route path="/about" component={About} />
         </Switch>
       </main>
-
     </div>
   );
 }
