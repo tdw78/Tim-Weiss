@@ -23,9 +23,12 @@
 }
 
 .list-group {
-  color: #101935;
-  font-family: "Georgia";
-  font-size: 28px;
+  color: #81DCEE;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
+  line-height: 1.7;
+  word-spacing: 4px;
+  letter-spacing: .1rem;
 }
 
 .nav-link {
