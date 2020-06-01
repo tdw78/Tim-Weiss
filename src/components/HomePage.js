@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import NavBar from "./Navbar";
 
 class HomePage extends Component {
 
@@ -12,7 +10,7 @@ class HomePage extends Component {
           
           <div>
             <p id="title">Timothy Weiss</p>
-            <p class="subtext">Full Stack Web Developer</p>
+            <p className="subtext">Full Stack Web Developer</p>
           </div>
         
           {/* <div class="row">
