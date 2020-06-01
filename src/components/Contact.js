@@ -23,7 +23,7 @@ class Contact extends Component {
           <h2 style={titleStyle}>My Contact Info</h2> 
           
           <div class="list-group">
-          <a style={listStyle} href="https://github.com/tdw78" target="_blank">GitHub</a>
+            <a style={listStyle} href="https://github.com/tdw78" target="_blank">GitHub</a>
             <a style={listStyle, spacing} href="https://www.linkedin.com/in/-timothyweiss/" target="_blank" >LinkedIn</a>
             {/* <a style={listStyle, spacing} href="https://github.com/tdw78" target="_blank">GitHub</a> */}
             <p>(415) 250-0122</p>

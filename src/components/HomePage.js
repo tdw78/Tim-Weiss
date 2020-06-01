@@ -10,8 +10,9 @@ class HomePage extends Component {
       <div>
         <div className="main">
           
-          <div id="title">
-            <p>Timothy Weiss</p>
+          <div>
+            <p id="title">Timothy Weiss</p>
+            <p class="subtext">Full Stack Web Developer</p>
           </div>
         
           {/* <div class="row">
