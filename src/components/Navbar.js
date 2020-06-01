@@ -8,10 +8,11 @@ class NavBar extends Component {
       <div>
          <br></br>
         <div class="nav">
-          <Link class="nav-link" to="/contact">Contact</Link> 
-          <Link class="nav-link" to="/projects">Projects</Link> 
-          <Link class="nav-link" to="/about">About</Link>
-          <Link class="nav-link" to="/">Home</Link>
+        <Link class="nav-link" to="/about">About</Link>
+          <Link class="nav-link" to="/contact">Contact</Link>
+          <Link class="nav-link" to="/skills"> Technical Skills</Link>
+          <Link class="nav-link" to="/projects">Projects</Link>
+          <Link class="nav-link" to="/">Home</Link>    
         </div>
 
         {/* <nav class="nav">
