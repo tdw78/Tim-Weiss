@@ -30,10 +30,10 @@ class Projects extends Component {
           </div>
 
          <div className="row">
-           <div classname="col-lg-6">
+           <div className="col-lg-6">
              <a href="https://tdw78-shopping-app.herokuapp.com/" target="_blank" rel="noopener noreferrer" > <img src="../../images/shoppingapp.png" alt="Shopping App" /> </a>
            </div>
-           <div classname="col-lg-4 list-group"> 
+           <div className="col-lg-4 list-group"> 
              <p style={listHeader}>The Shopping App</p>
              <a style={listStyle} href=" https://tdw78-shopping-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out!</a>
              <a style={listStyle} href="https://github.com/tdw78/shopping-app" target="_blank" rel="noopener noreferrer" >GitHub</a> 
